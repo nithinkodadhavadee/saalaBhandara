@@ -11,6 +11,8 @@ let theString = `
 - [ ] Rs 847 - Raju Slice October
 - [ ] Rs 705 - Raman Slice October
 - [ ] Rs 384 - Zomato Firangi Bake 08/10/2021
+- [ ] Rs 320 - Grill House
+- [ ] Rs 100 - Sportingo - 13/10/2021
 `;
       
 window.onload = function(){
