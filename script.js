@@ -13,6 +13,7 @@ let theString = `
 - [ ] Rs 384 - Zomato Firangi Bake 08/10/2021
 - [ ] Rs 320 - Grill House
 - [ ] Rs 100 - Sportingo - 13/10/2021
+- [ ] Rs 100 - Mithun to Krishna 28/10/21
 `;
       
 window.onload = function(){
