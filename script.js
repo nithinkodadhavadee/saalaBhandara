@@ -14,6 +14,7 @@ let theString = `
 - [ ] Rs 320 - Grill House
 - [ ] Rs 100 - Sportingo - 13/10/2021
 - [ ] Rs 100 - Mithun to Krishna 28/10/21
+- [ ] Rs 705 - Raman Slice November
 `;
       
 window.onload = function(){
