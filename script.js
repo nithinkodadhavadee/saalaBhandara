@@ -1,11 +1,11 @@
 let theString = `
 # Krishna AL
 - [ ] Rs 1500 - Mpokket August
-- [ ] Rs 250 
+- [ ] Rs 250
 - [ ] Rs 800 - TIE Internship
-- [ ] Rs 150 
-- [ ] Rs 500 
-- [ ] Rs 300 
+- [ ] Rs 150
+- [ ] Rs 500
+- [ ] Rs 300
 - [ ] Rs 2600 - Phone Display
 - [ ] Rs 11569 - Mpokket September, October, November
 - [ ] Rs 847 - Raju Slice October
@@ -16,7 +16,7 @@ let theString = `
 - [ ] Rs 100 - Mithun to Krishna 28/10/21
 - [ ] Rs 705 - Raman Slice November
 `;
-      
+
 window.onload = function(){
     let totalDue = 0;
     let eachLine = theString.split("\n");
@@ -26,6 +26,6 @@ window.onload = function(){
         totalDue = totalDue + parseInt(eachLine[i].split(' ')[4]);
     }
     console.log(totalDue);
-    document.getElementById('content').innerHTML = marked(theString);
-    document.getElementById('total').innerHTML = marked("## Total \nRs. " + String(totalDue));
+    document.getElementById('content').innerHTML = marked.parse(theString);
+    document.getElementById('total').innerHTML = marked.parse("## Total \nRs. " + String(totalDue));
 }
