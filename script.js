@@ -15,7 +15,10 @@ let theString = `
 - [ ] Rs 100 - Sportingo - 13/10/2021
 - [ ] Rs 100 - Mithun to Krishna 28/10/21
 - [ ] Rs 705 - Raman Slice November
+- [ ] Rs 254 - Slice November 
 `;
+
+// 8799: Pavan 
 
 window.onload = function(){
     let totalDue = 0;
