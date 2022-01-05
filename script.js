@@ -16,6 +16,8 @@ let theString = `
 - [ ] Rs 100 - Mithun to Krishna 28/10/21
 - [ ] Rs 705 - Raman Slice November
 - [ ] Rs 254 - Slice November 
+- [ ] Rs 705 - Raman Slice December
+- [ ] Rs 365 - Nakul Slice December
 `;
 
 // 8799: Pavan 
