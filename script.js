@@ -18,6 +18,7 @@ let theString = `
 - [ ] Rs 254 - Slice November 
 - [ ] Rs 705 - Raman Slice December
 - [ ] Rs 365 - Nakul Slice December
+- [ ] Rs 305 - Raman Slice 705 - 400 Nandu lice baaki 
 `;
 
 // 8799: Pavan 
