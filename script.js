@@ -1,4 +1,4 @@
-let theString = `
+let krishna = `
 # Krishna AL
 - [ ] Rs 1500 - Mpokket August
 - [ ] Rs 250
@@ -22,17 +22,39 @@ let theString = `
 - [ ] Rs 2000 - Goa Pavan repayment
 `;
 
+let ramana = `
+# Janakiramana R
+- [x] Rs 500 - Goa Pavan Repayment
+- [x] Rs 500 - some some thing 
+- [ ] Rs 300 - Kotigobba 2 
+`;
 // 8799: Pavan 
 
 window.onload = function(){
     let totalDue = 0;
-    let eachLine = theString.split("\n");
+    let eachLine = krishna.split("\n");
 
     for(let i = 2; i < eachLine.length-1; i++){
         console.log(eachLine[i].split(' ')[4]);
-        totalDue = totalDue + parseInt(eachLine[i].split(' ')[4]);
+        if(eachLine[i].split(' ')[1]==='['){
+            totalDue = totalDue + parseInt(eachLine[i].split(' ')[4]);
+        }
     }
     console.log(totalDue);
-    document.getElementById('content').innerHTML = marked.parse(theString);
-    document.getElementById('total').innerHTML = marked.parse("## Total \nRs. " + String(totalDue));
+    document.getElementById('krishnaContent').innerHTML = marked.parse(krishna);
+    document.getElementById('krishnaTotal').innerHTML = marked.parse("## Total \nRs. " + String(totalDue));
+
+
+    totalDue = 0;
+    eachLine = ramana.split("\n");
+
+    for(let i = 2; i < eachLine.length-1; i++){
+        console.log(eachLine[i].split(' ')[4]);
+        if(eachLine[i].split(' ')[1]==='['){
+            totalDue = totalDue + parseInt(eachLine[i].split(' ')[4]);
+        }
+    }
+    console.log(totalDue);
+    document.getElementById('ramanaContent').innerHTML = marked.parse(ramana);
+    document.getElementById('ramanaTotal').innerHTML = marked.parse("## Total \nRs. " + String(totalDue));
 }
