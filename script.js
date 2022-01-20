@@ -31,8 +31,13 @@ let ramana = `
 // 8799: Pavan 
 
 window.onload = function(){
+    renderHTML(krishna, 'krishnaContent', 'krishnaTotal');
+    renderHTML(ramana, 'ramanaContent', 'ramanaTotal');
+}
+
+function renderHTML(MDtoHTML, contentClass, totalClass){
     let totalDue = 0;
-    let eachLine = krishna.split("\n");
+    let eachLine = MDtoHTML.split("\n");
 
     for(let i = 2; i < eachLine.length-1; i++){
         console.log(eachLine[i].split(' ')[4]);
@@ -41,20 +46,6 @@ window.onload = function(){
         }
     }
     console.log(totalDue);
-    document.getElementById('krishnaContent').innerHTML = marked.parse(krishna);
-    document.getElementById('krishnaTotal').innerHTML = marked.parse("## Total \nRs. " + String(totalDue));
-
-
-    totalDue = 0;
-    eachLine = ramana.split("\n");
-
-    for(let i = 2; i < eachLine.length-1; i++){
-        console.log(eachLine[i].split(' ')[4]);
-        if(eachLine[i].split(' ')[1]==='['){
-            totalDue = totalDue + parseInt(eachLine[i].split(' ')[4]);
-        }
-    }
-    console.log(totalDue);
-    document.getElementById('ramanaContent').innerHTML = marked.parse(ramana);
-    document.getElementById('ramanaTotal').innerHTML = marked.parse("## Total \nRs. " + String(totalDue));
+    document.getElementById(contentClass).innerHTML = marked.parse(MDtoHTML);
+    document.getElementById(totalClass).innerHTML = marked.parse("## Total \nRs. " + String(totalDue));
 }
