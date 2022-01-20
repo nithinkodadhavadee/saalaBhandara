@@ -19,6 +19,7 @@ let theString = `
 - [ ] Rs 705 - Raman Slice December
 - [ ] Rs 365 - Nakul Slice December
 - [ ] Rs 305 - Raman Slice 705 - 400 Nandu lice baaki 
+- [ ] Rs 2000 - Goa Pavan repayment
 `;
 
 // 8799: Pavan 
