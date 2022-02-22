@@ -18,8 +18,12 @@ let krishna = `
 - [ ] Rs 254 - Slice November 
 - [ ] Rs 705 - Raman Slice December
 - [ ] Rs 365 - Nakul Slice December
-- [ ] Rs 305 - Raman Slice 705 - 400 Nandu lice baaki 
+- [ ] Rs 305 - Raman Slice 705 January - 400 Nandu slice baaki 
+- [ ] Rs 305 - Raman Slice 705 February - 400 Nandu Slice Baaki
 - [ ] Rs 2000 - Goa Pavan repayment
+- [ ] Rs 750 - Dinner thing
+- [ ] Rs 800 - 18th Reshmita mane meet
+- [ ] Rs 100 - to be Return to Raman
 `;
 
 let ramana = `
