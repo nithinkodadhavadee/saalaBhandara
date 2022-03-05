@@ -24,6 +24,7 @@ let krishna = `
 - [ ] Rs 750 - Dinner thing
 - [ ] Rs 800 - 18th Reshmita mane meet
 - [ ] Rs 100 - to be Return to Raman
+- [ ] Rs 305 - Raman Slice 705 March - 400 Nandu Slice baaki
 `;
 
 let ramana = `
