@@ -25,13 +25,20 @@ let krishna = `
 - [ ] Rs 800 - 18th Reshmita mane meet
 - [ ] Rs 100 - to be Return to Raman
 - [ ] Rs 305 - Raman Slice 705 March - 400 Nandu Slice baaki
+- [ ] Rs 1505 - Zudio 23/05/2022
+- [ ] Rs 500 - Gopalan Bowling 23/05/2022
+- [ ] Rs 1050 - Trends Round Neck 23/05/2022
+- [ ] Rs 400 - Global 23/05/2022
+- [ ] Rs 500 - Starbucks 02/06/2022
+- [ ] Rs 500 - Fule 02/06/2022
+
 `;
 
 let ramana = `
 # Janakiramana R
 - [x] Rs 500 - Goa Pavan Repayment
-- [x] Rs 500 - some some thing 
-- [ ] Rs 300 - Kotigobba 2 
+- [ ] Rs 500 - some some thing 
+- [x] Rs 300 - Kotigobba 2 
 `;
 // 8799: Pavan 
 
