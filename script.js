@@ -42,9 +42,43 @@ let ramana = `
 `;
 // 8799: Pavan 
 
+let nithin = `
+# Nithin
+- [ ] Rs 10000 - Phone EMI
+- [ ] Rs 10030 - Vaishnavi
+- [ ] Rs 4100.04 - Slice
+- [ ] Rs 3424 - Oct Slice
+- [ ] Rs 3436
+- [ ] Rs 2689
+- [ ] Rs 2414
+- [ ] Rs 2100
+- [ ] Rs 2100
+- [ ] Rs 2111
+- [ ] Rs 1387
+- [ ] Rs 1060
+- [ ] Rs 1060
+- [ ] Rs 1060
+- [ ] Rs 1079
+- [ ] Rs 322
+- [ ] Rs 322
+- [ ] Rs 322
+- [ ] Rs 323.12
+- [x] Rs 230.60 - HDFC Debit Card
+- [ ] Rs 2235.26 - HDFC Sep EMI
+- [ ] Rs 2235.26
+- [ ] Rs 2235.28
+- [ ] Rs 1438.85 - HDFC Sep EMI
+- [ ] Rs 1471.12
+- [ ] Rs 1471.12
+- [ ] Rs 1471.12
+- [ ] Rs 1471.12
+- [ ] Rs 1471.09
+`;
+
 window.onload = function(){
     renderHTML(krishna, 'krishnaContent', 'krishnaTotal');
     renderHTML(ramana, 'ramanaContent', 'ramanaTotal');
+    renderHTML(nithin, 'nithinContent', 'nithinTotal');
 }
 
 function renderHTML(MDtoHTML, contentClass, totalClass){
